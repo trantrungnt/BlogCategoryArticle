@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Laravel</title>
-
+        @yield('welcome')
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <style>
@@ -38,7 +38,16 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">
+                    <table border="1">
+                       <tr>
+                            <td>Name1</td>
+                       </tr>
+                       <tr>
+                            <td>Name2</td>
+                       </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </body>

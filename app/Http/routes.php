@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+//Route::post(LaravelLocalization::transRoute('routes.admin/questions/add'), 'Admin\QuestionController@store');
+
+//Route::get('test', 'Pages\BlogArticleController@index');
+
+/*Route::get('/', function () {
+    return View('welcome');
+});*/
+//Route::resource('BlogArticle', 'BlogArticleController');
+Route::get('/', 'Pages\BlogArticleController@index');

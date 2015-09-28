@@ -11,3 +11,7 @@ abstract class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+
+//public function {method_name}(Request $request (, (optional) $param_1, (optional) $param_2, ...)) {
+    // code
+//}
